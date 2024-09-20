@@ -1,4 +1,4 @@
-export const qnaList = [
+const qnaList = [
   {
     q: "When do I start getting paid sick time?",
     a: "Accumulation of sick leave will start at the first day of employment; however, sick leave pay will not be granted until the completion of the 90-day probationary period.",
@@ -21,4 +21,6 @@ export const qnaList = [
   },
 ];
 
-export const REPLY_NOT_READY = "I am sorry, Not ready for this question yet.";
+const REPLY_NOT_READY = "I am sorry, Not ready for this question yet.";
+
+module.exports = { qnaList, REPLY_NOT_READY };
